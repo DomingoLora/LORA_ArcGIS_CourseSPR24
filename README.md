@@ -1,6 +1,6 @@
 # LORA_ArcGIS_CourseSPR24
 This repository belongs to Domingo Lora Medina. 
 
-txt = "Interests"
+# **RESEARCH INTERESTS**
+_Vector-ecology, Vector-borne diseases, GIS-based analysis_ 
 
-x = txt.title()
