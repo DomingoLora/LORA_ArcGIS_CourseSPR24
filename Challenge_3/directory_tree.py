@@ -18,18 +18,18 @@ def create_directory_tree():
     except Exception as e:
         print(f"Error: {e}")
 
-    if __name__ == "__main__":
-        create_directory_tree()
 # Deleting Direct. Tree
 
-def. delete_directory_tree():
+def delete_directory_tree():
     try:
         shutil.rmtree("draft_code")
         shutil.rmtree("includes")
         shutil.rmtree("layout")
         shutil.rmtree("site")
         print("Directory tree deleted sucessfully")
-    except Exception e:
-        print: (f"Error: {e}")
-if __name__ = "__main"
-    delete.directory_tree()
+    except Exception as e:
+        print(f"Error: {e}")
+
+
+create_directory_tree()
+delete_directory_tree()
