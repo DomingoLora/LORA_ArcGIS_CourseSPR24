@@ -12,7 +12,7 @@ arcpy.env.overwriteOutput = True
 #PART 3: Path directory
 
 arcpy.env.workspace = r"C:\Users\domingo_lora\PycharmProjects\domingo_loraNRS\Challenges\Challenge 5"
-workspace = r"C:\Users\domingo_lora\PycharmProjects\domingo_loraNRS\Challenges\Challenge 5"
+workspace = arcpy.env.workspace
 
 #PART 4: Creating a function capable of creating a shapefile from CSV
 def create_shapefile(csv_file, out_shapefile):
