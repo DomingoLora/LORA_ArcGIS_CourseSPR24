@@ -12,7 +12,7 @@
 import arcpy
 arcpy.env.overwriteOutput = True # This command is designed to overwrite any repeated files
 
-arcpy.env.workspace = r'C:\Users\domingo_lora\PycharmProjects\domingo_loraNRS\Challenges\Challenge 9'
+arcpy.env.workspace = r'H:\NRS528_2024\Domingo_Lora\Challenge 9'
 input_shp = r'RI_Forest_Health_Works_Project%3A_Points_All_Invasives.shp'
 
 photo_count = 0     #In this text, I count how many records have photos and how many do not
